@@ -194,7 +194,6 @@ status: Open to Internships & Collaborations
   </picture>
 </div>
 
-> **Note:** The snake animation will appear after you set up the GitHub Actions workflow (see bottom of this README) and run it at least once.
 
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -309,22 +308,7 @@ Core Member
 
 </div>
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## Pinned Repos Suggestion
-
-> **Tip:** Pin these repositories on your GitHub profile for maximum impact!
-
-```
-IntelliQuery (LightRAG Document Retrieval)
-ATR-Vision-Transformers (SAR Image Recognition)
-Health-Fitness-Recommender (XGBoost + SHAP)
-Smart-Wardrobe (React + Node.js)
-```
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## Connect With Me
 
