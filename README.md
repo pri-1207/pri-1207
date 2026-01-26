@@ -183,19 +183,6 @@ status: Open to Internships & Collaborations
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pri-1207&show_icons=true&hide_border=true&bg_color=FFFFFF&title_color=B8A9C9&icon_color=D4A5A5&text_color=6B5B7A&ring_color=B8A9C9"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pri-1207&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=B8A9C9&text_color=6B5B7A"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pri-1207&hide_border=true&background=FFFFFF&ring=B8A9C9&fire=D4A5A5&currStreakLabel=6B5B7A&sideLabels=6B5B7A&currStreakNum=6B5B7A&sideNums=6B5B7A&dates=A9A9A9" alt="GitHub Streak"/>
-</div>
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## Contribution Snake
 
@@ -366,56 +353,6 @@ Smart-Wardrobe (React + Node.js)
 
 ---
 
-<details>
-<summary><h2>Snake Animation Workflow (Click to Expand)</h2></summary>
-
-### File Path: `.github/workflows/snake.yml`
-
-Create this file in your repository to enable the contribution snake animation:
 
 ```yaml
-name: Generate Snake Animation
 
-on:
-  # Run automatically every 12 hours
-  schedule:
-    - cron: "0 */12 * * *"
-  
-  # Allows manual trigger from Actions tab
-  workflow_dispatch:
-  
-  # Run on push to main branch
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
-    steps:
-      # Generate snake animation SVGs
-      - name: Generate Snake Animation
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      # Push generated files to output branch
-      - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "Update snake animation"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
