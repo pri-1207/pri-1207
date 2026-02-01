@@ -127,19 +127,20 @@ status: Open to Internships & Collaborations
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
-<!-- Overall Stats -->
+<!-- Overall GitHub Stats (commits, PRs, private included) -->
 <img
-  src="https://github-readme-stats.vercel.app/api?username=pri-1207&show_icons=true&count_private=true&include_all_commits=true"
+  src="https://github-readme-stats.vercel.app/api?username=pri-1207&show_icons=true&count_private=true&include_all_commits=true&cache_seconds=1800"
   alt="GitHub Stats"
   height="165"
 />
 
-<!-- Commit Streak (shows recent consistency) -->
+<!-- Commit Streak (recent activity) -->
 <img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=pri-1207"
+  src="https://streak-stats.demolab.com?user=pri-1207&cache_seconds=1800"
   alt="GitHub Streak"
   height="165"
 />
@@ -148,7 +149,7 @@ status: Open to Internships & Collaborations
 
 <!-- Top Languages -->
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pri-1207&layout=compact"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pri-1207&layout=compact&cache_seconds=1800"
   alt="Top Languages"
   height="165"
 />
