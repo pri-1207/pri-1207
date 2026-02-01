@@ -125,17 +125,33 @@ status: Open to Internships & Collaborations
 
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ## GitHub Stats
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=pri-1207&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=6B5B7A&icon_color=6B5B7A&text_color=6B5B7A&bg_color=F5F3FA" />
+<!-- Overall Stats -->
+<img
+  src="https://github-readme-stats.vercel.app/api?username=pri-1207&show_icons=true&count_private=true&include_all_commits=true"
+  alt="GitHub Stats"
+  height="165"
+/>
 
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=pri-1207&hide_border=true&ring=6B5B7A&fire=8B7355&currStreakLabel=6B5B7A&background=F5F3FA" />
+<!-- Commit Streak (shows recent consistency) -->
+<img
+  src="https://github-readme-streak-stats.herokuapp.com/?user=pri-1207"
+  alt="GitHub Streak"
+  height="165"
+/>
 
 <br/><br/>
 
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pri-1207&layout=compact&hide_border=true&title_color=6B5B7A&text_color=6B5B7A&bg_color=F5F3FA" />
+<!-- Top Languages -->
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pri-1207&layout=compact"
+  alt="Top Languages"
+  height="165"
+/>
 
 </div>
 
@@ -197,23 +213,22 @@ status: Open to Internships & Collaborations
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-
 ## Contribution Snake
-## Contribution Activity
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pri-1207&bg_color=F5F3FA&color=6B5B7A&line=8B7355&point=6B5B7A&area=true&hide_border=true" width="100%"/>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pri-1207/pri-1207/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pri-1207/pri-1207/output/github-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/pri-1207/pri-1207/output/github-snake.svg" width="100%"/>
-</picture>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/pri-1207/pri-1207/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/pri-1207/pri-1207/output/github-snake.svg" />
+    <img
+      alt="github contribution snake"
+      src="https://raw.githubusercontent.com/pri-1207/pri-1207/output/github-snake.svg"
+      width="100%"
+    />
+  </picture>
 </div>
+
 
 
 ## Education
